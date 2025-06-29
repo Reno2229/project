@@ -1,88 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOGIN</title>
+    <title>Home</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="logo.png">
 </head>
-<body background="123.jpg">
-<header>
-    <h2 class="logo"><img src="logo.png"/></h2>
-    <nav class="navigation">
-        <a href="Index.html">&nbsp;&nbsp;Home</a>
-        <button class="bot-login">Login</button>
-    </nav>
-</header>
-<div class="mainlogo">
-    <h1 class="malo">Welcome to books world</h1>
-</div>
-<div class="wrapper">
-    <samp class="icon-close"><ion-icon name="close"></ion-icon></samp>
-    <div class="form-box login">
-        <h2>Login</h2>
-    <form action="login.php">
-        <div class="input-box">
-            <label class="email">Email</label>
-            <input type="email" required>
-            <samp class="icon"></samp>
-        </div>
-         <div class="input-box">
-            <label class="email">Password</label>
-            <input type="password" required>
-         <samp class="icon"></samp>
-        </div>
-        <div class="forgot">
-            <label><input type="checkbox" required>Remember me</label>
-            <a href="#">Forgot Password?</a>
-        </div>
-        <button type="submit" class="btn" name="register">Login</button>
-        <div class="login-regi">
-            <p>Don't have account? <a href="#" class="register-link">
-                Register
-            </a></p>
-        </div>
+<body>
+    <header class="head">
+        <h2 class="logo"><img src="logo.png"/></h2>
+        <nav class="navigation">
+            <a href="Login.html">&nbsp;&nbsp;Home</a>
+            <a href="#About">&nbsp;About</a>
+            <a href="#Service">Service</a>
+            <a href="#Contact">Contact</a>
+            <a href="Login.html">Back</a>
+        </nav>
+    </header>
 
-    </form>
-</div>
+<div class="main">
+    <div class="bookimg">
+        <img src="storein.jpg" class="b_img">
+    </div>
+    <div class="con">
+        <h1 class="h1">World of Literature at a Bookstore</h1>
+        <p class="cont">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Explore the world of literature at our bookstore,
+             where captivating stories and knowledge await you.
+             From bestsellers to hidden gems, our shelves are
+             filled with a diverse collection to satisfy every 
+             reader's taste. Immerse yourself in the magic of words 
+             and embark on unforgettable journeys through the pages 
+             of our carefully curated books. Join our community of 
+             avid readers and discover the joy of finding your next 
+             favorite read. Visit us today and let the enchantment 
+             of books elevate your reading experience."
+        </p>
+    </div><br><br>
+    <h1 class="available">
+        Books Available
+    </h1>
+    <div>
+        <nav>
+        <ul>
+            <li><ion-icon name="star-half-outline" class="ion"></ion-icon>
+                <a href="https://www.storybooks.app/" target="_blank">Story Books</a></li>
+            <li><ion-icon name="star-half-outline" class="ion"></ion-icon>
+                <a href="https://www.tamil-bible.com/" target="_blank">Holly Books</a></li> 
+            <li><ion-icon name="star-half-outline" class="ion"></ion-icon>
+                <a href="https://www.panuval.com/tamil-comics-graphic-novel" target="_blank">Comics</a></li>
+            <li><ion-icon name="star-half-outline" class="ion"></ion-icon>
+                <a href="https://www.abebooks.com/books/best-history-books/" target="_blank">History Books</a></li> 
+            <li><button onclick="openlink()" class="buy">Buy Now</button></li>
+        </ul>
+        </nav>
+    </div>
+    <img src="store.jpg" class="store">
+    <br><br><br><br><br>
 
-    <div class="form-box register">
-        <h2>Registion</h2>
-    <form action="login.php" method="post">
-        <div class="input-box">
-            <label class="email">Username</label>
-            <input type="text" name="fullname" required>
-            <samp class="icon"></samp>
+    <!--ABOUT STARTS here-->
+    <section id="About"> 
+        <div id="ab">
+            <h1 class="hhh">About</h1>
+        <img src="book.jpg" class="mma">
+            <div id="ou"> 
+            <p class="p1">
+                &nbsp;&nbsp;&nbsp; Welcome to ANR Books, where literary journeys come to 
+                life! Immerse yourself in a world of diverse stories,       
+                from captivating comics to profound historical narratives 
+                and enchanting tales for kids. Our shelves are curated to 
+                cater to every reader's taste, blending the magic of 
+                storytelling across genres. At ANR Books, we don't just 
+                offer books; we provide an experience. Explore our 
+                collection and find your next adventure.
+            </p><br>
+            <p class="p2">
+                &nbsp;&nbsp;&nbsp;But our commitment goes beyond selling 
+                books – we also offer a seamless buying experience. 
+                With our convenient buying facilities, selling your 
+                pre-loved books becomes as enjoyable as acquiring new ones. 
+                Join us at ANR Books, where the love for literature 
+                meets the joy of sharing stories.
+            </p>
+          </div> 
+          <br>
+          <h1 class="vision">Vision</h1>
+          <div class="visionpara">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            At ANR Books, our vision is to inspire a community 
+            of lifelong learners and avid readers. We envision 
+            a world where the transformative power of literature 
+            enriches lives, fosters creativity, and brings people 
+            together. Through our diverse collection and engaging 
+            literary experiences, we aspire to be a beacon for 
+            those who seek knowledge, imagination, and connection through the written word.
+          </div>
+          <h1 class="mission">Mission</h1>
+          <div class="missionpara">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Our mission at ANR Books is to curate an exceptional 
+            selection of books that cater to varied tastes and 
+            interests, fostering a love for reading in individuals 
+            of all ages. We are dedicated to providing outstanding 
+            customer service, creating a welcoming space for our 
+            community to explore, discover, and connect. Through 
+            book buying facilities, events, and educational resources, 
+            we aim to be more than a bookstore – a cultural hub that 
+            contributes to the enrichment of minds and the promotion of literary appreciation.
+          </div>
         </div>
-        <div class="input-box">
-            <label class="email">Email</label>
-            <input type="email" name="email" required>
-            <samp class="icon"></samp>
+    </section>
+    <!--ABOUT ENDS here-->
+
+    <!--SERVICE STARTS here-->
+    <section id="Service">
+    <div class="mainservice">
+        <div class="ser1 ser">
+           <h3 class="vic">Book Retail:</h3>
+           <p class="serpara">
+              Explore our extensive collection of books 
+              spanning various genres, from comics and history to children's stories. 
+              Find the perfect read for every age and interest.</p>
         </div>
-         <div class="input-box">
-            <label class="email">Password</label>
-            <input type="password" name="password" required>
-         <samp class="icon"></samp>
+        <div class="ser2 ser">
+           <h3 class="vic">Special Orders:</h3>
+           <p class="serpara">Can't find a specific book? We're here to help. Place special orders, 
+              and we'll do our best to track down and bring in the titles you're looking for.</p>
         </div>
-        <div class="forgot">
-            <label><input type="checkbox" required>
-                I agree to the terms & conditions
-            </label>
+        <div class="ser3 ser">
+           <h3 class="vic">Buying Facilities:</h3>
+           <p class="serpara">Clear out your bookshelves with ease. Take advantage of our book buying services, 
+              turning your gently used books into credit or cash for new literary adventures.</p>
+        </div>
+        <div class="ser4 ser">
+           <h3 class="vic">Events and Book Clubs:</h3>
+           <p class="serpara">Immerse yourself in our vibrant community by participating in book clubs, author events, 
+              and literary gatherings. Connect with fellow book enthusiasts and share your love for reading.</p>
+        </div>
+        <div class="ser5 ser">
+           <h3 class="vic">Gift Cards:</h3>
+           <p class="serpara">Give the gift of choice with our ANR Books gift cards. Perfect for any occasion, 
+              let your loved ones explore and select their favorite reads.</p>
+        </div>
+        <div class="ser6 ser">
+           <h3 class="vic">Book Recommendations:</h3>
+           <p class="serpara">Not sure what to read next? Consult our knowledgeable staff for personalized recommendations 
+              based on your preferences and interests.</p>
+        </div>
+        <div class="ser7 ser">
+           <h3 class="vic">Cozy Reading Spaces:</h3>
+           <p class="serpara">Enjoy a comfortable reading environment within our store. Take a break, dive into a book, 
+              and lose yourself in the pages of a good story.</p>
+        </div>
+        <div class="ser8 ser">
+           <h3 class="vic">Educational Resources:</h3>
+           <p class="serpara">Support your learning journey with our selection of educational books and resources, catering 
+              to students and lifelong learners alike.</p>
+        </div>
+        <div class="ser9 ser">
+           <h3 class="vic">Online Ordering:</h3>
+           <p class="serpara">Can't make it to the store? Browse and order books online for doorstep delivery, ensuring you 
+              never miss out on your literary cravings.</p>
+        </div>
+     </div>
+    </section>
+    <!---Service ends here-->
+
+    <!--CONTECT STARTS here-->
+    <section id="Contect">
+        <div class="contact">
+            <h1 class="cont">Contact Us:</h1>
+            <div class="conta">
             
-        </div>
-        <button type="submit"  class="btn" name="login">Submit</button>
-        <div class="login-regi">
-            <p>I alredy have account? <a href="#" class="login-link">
-                Login
-            </a></p>
-        </div>
+            <h4 class="mobi">Mobile No:</h4>
+            <p class="numb er">6385305064 / 8015206368</p>
+            <h4 class="mobi">Mail ID:</h4>
+            <p class="numb">renojovith@gmail.com / anrbookstore@gmail.com</p>
+            <h4 class="mobi">Address:</h4>
+            <p class="numb">3/1, Selam Main Road, Kanankadu, Sankarapuram (post), 
+            Kallakurichi(TK), Kallakurichi(Dt), Tamil Nadu, India, Pin-606 801.</p>
+            </div>
+            <div class="visit">Visit Us:</div>
+            <div class="linkiocn">
+              <a href="#" class="whatsapp what">re</a>
+              <a href="#" class="whatsapp">no</a>
+              <a href="#" class="whatsapp">jo</a>
+              <a href="#" class="whatsapp">vi</a>
+              <a href="mailto:renojovith@gmail.com" class="whatsapp"></a>
+            </div>
+            <h4 class="be">&copy;2024 "Always Be Happy"</h4>
+          </div>
+        
+          <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+          <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </section>
 
-    </form>
+    <div class="footer">
+        &copy; 2024 "Alwaya Be Happy"
+    </div>
 </div>
-</div>
+<script>
+    let openlink = () =>{
 
-<script src="script.js"></script>
+        window.open("https://lbb.in/chennai/best-book-stores-in-chennai/","_blank");
+    };
+</script>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
