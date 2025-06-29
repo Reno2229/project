@@ -574,6 +574,7 @@ h1.malo{
     width: 80%;
     background: linear-gradient(#04ecb2b0,#152836b0);
     margin-top: 100px;
+    margin-left: 40px;
     border-radius: 200px;
     border-block: 5px solid #000;  
 }
