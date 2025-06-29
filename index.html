@@ -3,11 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="logo.png">
 </head>
-<body>
-    <h1>Hello</h1>
-    <img width="200px" src="2.jpg" alt="">
-    <h1>welcome to book world</h1>
+<body background="123.jpg">
+<header>
+    <h2 class="logo"><img src="logo.png"/></h2>
+    <nav class="navigation">
+        <a href="index.html">&nbsp;&nbsp;Home</a>
+        <a href="#">&nbsp;About</a>
+        <a href="#">Service</a>
+        <a href="#">Contact</a>
+        <button class="bot-login">Login</button>
+    </nav>
+</header>
+<div class="mainlogo">
+    <h1 class="malo">Welcome to books world</h1>
+</div>
+<div class="wrapper">
+    <samp class="icon-close"><ion-icon name="close"></ion-icon></samp>
+    <div class="form-box login">
+        <h2>Login</h2>
+    <form action="login.php">
+        <div class="input-box">
+            <label class="email">Email</label>
+            <input type="email" required>
+            <samp class="icon"></samp>
+        </div>
+         <div class="input-box">
+            <label class="email">Password</label>
+            <input type="password" required>
+         <samp class="icon"></samp>
+        </div>
+        <div class="forgot">
+            <label><input type="checkbox" required>Remember me</label>
+            <a href="#">Forgot Password?</a>
+        </div>
+        <button type="submit" class="btn" name="register">Login</button>
+        <div class="login-regi">
+            <p>Don't have account? <a href="#" class="register-link">
+                Register
+            </a></p>
+        </div>
+
+    </form>
+</div>
+
+    <div class="form-box register">
+        <h2>Registion</h2>
+    <form action="login.php" method="post">
+        <div class="input-box">
+            <label class="email">Username</label>
+            <input type="text" name="fullname" required>
+            <samp class="icon"></samp>
+        </div>
+        <div class="input-box">
+            <label class="email">Email</label>
+            <input type="email" name="email" required>
+            <samp class="icon"></samp>
+        </div>
+         <div class="input-box">
+            <label class="email">Password</label>
+            <input type="password" name="password" required>
+         <samp class="icon"></samp>
+        </div>
+        <div class="forgot">
+            <label><input type="checkbox" required>
+                I agree to the terms & conditions
+            </label>
+            
+        </div>
+        <button type="submit"  class="btn" name="login">Submit</button>
+        <div class="login-regi">
+            <p>I alredy have account? <a href="#" class="login-link">
+                Login
+            </a></p>
+        </div>
+
+    </form>
+</div>
+</div>
+
+<script src="script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
